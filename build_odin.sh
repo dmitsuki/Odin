@@ -192,7 +192,6 @@ esac
 
 if [[ $# -eq 0 ]]; then
 	build_odin debug
-	run_demo
 	exit 0
 fi
 
@@ -211,7 +210,6 @@ if [[ $# -eq 1 ]]; then
 		;;
 	esac
 
-	run_demo
 	exit 0
 else
 	panic "Too many arguments!"
